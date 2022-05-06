@@ -29,7 +29,6 @@ const Create = ({myData, setMyData}) => {
                                 className="form-control bg-create-color" 
                                 placeholder="Title"
                                 name='title'
-                                // onChange={(e) => setTitle(e.target.value)}
                                 required
                                 {...register("title")}
                             />
@@ -40,10 +39,8 @@ const Create = ({myData, setMyData}) => {
                             </span>
                             <input 
                                 type="date" 
-                                className="form-control bg-create-color" 
-                                // placeholder="Date"
+                                className="form-control bg-create-color"
                                 name='date'
-                                // onChange={(e) => setDate(e.target.value)}
                                 required
                                 {...register("date")}
                             />

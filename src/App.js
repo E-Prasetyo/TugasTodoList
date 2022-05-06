@@ -15,7 +15,6 @@ function App() {
     }else{
       localStorage.setItem("dataTodo", JSON.stringify(data))
     }
-
   },[])
 
 
